@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+
+        .input{
+            width: 99%;
+            border-radius: 4px;
+            border: 1px solid black;
+        }
+
+        #address{
+            width: 99%;
+            height: 130px;
+        }
+
+        label{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>
+                <label for="firstname">First Name:</label>
+            </th>
+            <td>
+                <input class="input" type="text" id="firstname">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="lastname">Last Name:</label>
+            </th>
+            <td>
+                <input class="input" type="text" id="lastname">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="email">Email:</label>
+            </th>
+            <td>
+                <input class="input" type="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="pass">Password:</label>
+            </th>
+            <td>
+                <input class="input" type="password" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="repass">Re-Enter Password:</label>
+            </th>
+            <td>
+                <input class="input" type="password" id="repass">
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="2">
+                <label for="gender">Gender:</label>
+            </th>
+            <td>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="age">Age:</label>
+            </th>
+            <td>
+                <input class="input" type="number" id="age">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="phone">Phone Number:</label>
+            </th>
+            <td>
+                <input class="input" type="tel" id="phone">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="address">Address:</label>
+            </th>
+            <td>
+                <textarea name="address" id="address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="state">State:</label>
+            </th>
+            <td>
+                <input class="input" type="text" id="state">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="country">Country:</label>
+            </th>
+            <td>
+                <select name="country" id="country">
+                    <option value="">Choose your country</option>
+                    <option value="india">India</option>
+                    <option value="us">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="australia">Australia</option>
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="japan">Japan</option>
+                    <option value="china">China</option>
+                    <option value="brazil">Brazil</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="lang">Languages known:</label>
+            </th>
+            <td>
+                <input type="checkbox" id="english">
+                <label for="english">English</label>
+
+                <input type="checkbox" id="kannada">
+                <label for="kannada">Kannada</label>
+
+                <input type="checkbox" id="hindi">
+                <label for="hindi">Hindi</label>
+
+                <input type="checkbox" id="telugu">
+                <label for="telugu">Telugu</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="declare">
+                <label for="declare">Hereby I declare all the details given are true</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;" id="login">
+                Login to <a href="https://ethnus.com" target="_blank">Ethnus</a> website
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
