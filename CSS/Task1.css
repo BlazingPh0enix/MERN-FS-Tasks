@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+    background-color: #95d3d2;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+div{
+border: 2px solid green;
+height: 40px;
+width: 60px;
+display: inline-block;
+}
+
+.shape1,.shape2,.shape3,.shape4,.shape5,.shape6,.shape7,.shape8,.shape9{
+margin: 10px;
+}
+.shape1{
+border-radius: 3px;
+}
+
+.shape2{
+border-radius: 5px;
+}
+
+.shape3{
+border-radius: 8px;
+}
+
+.shape4{
+border-radius: 4px;
+}
+
+.shape5{
+border-radius: 2px;
+}
+
+.shape6{
+border-radius: 9px;
+}
+
+.shape7{
+border-radius: 50%;
+}
+
+.shape8{
+border-radius: 2px;
+}
+
+.shape9{
+border-top-right-radius: 20%;
+border-bottom-left-radius: 20%;
+}

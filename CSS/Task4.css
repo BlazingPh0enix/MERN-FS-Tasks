@@ -1,0 +1,35 @@
+.sidenav a{
+    position: absolute;
+    text-decoration: none;
+    padding: 15px;
+    width: 100px;
+    transition: 0.7s;
+    left: -80px;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.sidenav a:hover{
+    left: 0;
+}
+
+#home{
+    background-color: rgb(27, 152, 27);
+    top: 20px;
+}
+
+#page1{
+    background-color: rgb(48, 48, 255);
+    top: 80px;
+}
+
+#page2{
+    background-color: rgb(223, 63, 63);
+    top: 140px;
+}
+
+#about{
+    background-color: darkslategrey;
+    top: 200px;
+}
