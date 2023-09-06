@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #A22B55;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 400px;
+    padding: 20px 110px;
+    color: white;
+    background-color: #75203F;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    flex: 2;
+    padding: 10px;
+    border: none;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+button.register {
+    background-color: #4CB050;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
